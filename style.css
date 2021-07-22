@@ -21,34 +21,7 @@ html{ background:#eee;}
 #container {
     margin-top: 110px;
 }
-/* 
-@media (max-width: 730px) {
  
-    .navbar {
-     display: flex;
-     align-items: center;
-    
-    }
-   #navlinks {
-        margin-left: -600px;
-        display: flex;
-        
-    }
-    #logo {
-        padding-left: 50px;
-        margin-top: 15px;
-    }    
-    #container {
-        margin-top: 160px;
-    }
-} */
-
-/* @media (min-width: 696px) {
-    #header-image {
-        margin-left: 5%;
-    }
-}
- */
 #head {
     display: grid;
     justify-content:flex-start;
@@ -171,19 +144,6 @@ h2 {
 }
 
 
-
-@media (max-width: 676px) {
-    #first, #second, #third {
-        text-align: left;
-    }
-    i {
-        visibility: hidden;
-    }
-    h2 {
-        text-align: center;
-    }
-}
-
 #videoCont {
     display: flex;
     align-content: center;
@@ -264,12 +224,6 @@ ol li {
     transition: background-color 0.5s;
 }
 
-@media (max-width: 780px){ 
-    #pricing {
-        flex-direction: column;
-        align-items: center;
-    }
-}
 
 
 span { 
@@ -294,3 +248,44 @@ footer {
     justify-content: center;
     align-items: flex-end;
 }
+
+@media (max-width: 730px) {
+
+ html{ 
+     padding-left: 10px;
+    }
+    .navbar {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ 
+    
+    }
+    #header-img {
+        max-width: 250px;
+        margin-left: -10px;
+    }
+    .nav-link {
+       padding: 50px; 
+    }
+    
+    #container {
+        margin-top: 160px;
+
+    }
+    p{
+        line-height: 1rem;
+    }
+    #sec-icon {
+        margin-left: 10px;
+    }
+    
+    #pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer {
+        width: 100%;
+        margin-left: 5px;
+    }
+} 
